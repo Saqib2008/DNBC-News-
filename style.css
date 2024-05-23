@@ -1,0 +1,797 @@
+.header {
+    background-color: rgb(223, 68, 22);
+    color: white;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    z-index: +999;
+  }
+  
+  .nav {
+    background-color: rgb(17, 17, 77);
+    color: white;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    font-size: 25px;
+    width: 100%;
+    font-weight: bold;
+    position: fixed;
+    z-index: +999;
+    top: 30px;
+  }
+  
+  * {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+/* health page -------------------------------------------------------------------------------------------------*/
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #f0f5ff;   
+}
+
+/* background: black;
+   /border: 1px solid #441818;
+
+header{
+     width: 80%;
+     height: 90%;
+     
+} */
+/* header{} */
+.heading-container {
+    position: relative;
+    padding-left: px;
+    width: 1100px;
+    height: 80px;
+    margin-left: 320px;
+    margin-top: 400px;
+    align-items: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: none;
+    box-shadow: 5px 5px 10px rgb(114, 114, 116);
+    border-radius: 10px;
+    background-color: rgba(81, 134, 214, 0.445);
+}
+.heading-container h1{
+    position: absolute;
+    padding: 0px 0px 50px 520px; 
+    margin-top: 15px;
+    
+    
+}
+.body-style{
+    position: absolute;
+    width: 1300px;
+    height: 880px;
+    margin-top: 50px;
+    margin-left: 220px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 10px rgb(114, 114, 116);
+    background-color: rgba(81, 134, 214, 0.445);
+    
+}
+
+
+.main {
+    justify-content: center;    
+    margin-top:70px;
+    margin-left: -100px;
+    width: 2000PX;
+ 
+    height: 1000PX;
+    
+}
+
+.main-container {
+   
+    position: absolute;
+    margin-left: 150px;
+    margin-top: -29px;
+}
+
+.main2container {
+    margin-top: 737px;
+    position: absolute;
+    margin-left: 500px;
+    margin-right: 220px;
+}
+
+.mentholcigarettes-Container {
+    position: relative;
+    margin-left: px;
+    margin-top: 30px;
+    height: 125px;
+    width: 570px;
+    border-radius: 10px;
+    /* border: 0.1px dashed rgba(46, 46, 46, 0.226);  */
+    display: flex;
+}
+.mentholcigarettes-Container:hover{
+    border: none;
+    box-shadow: 5px 5px 10px rgb(12, 10, 10);
+}
+.mentholcigarettes-img {
+    width: 165px;
+    height: 125px;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 0.9px;
+    transition: 0.7 step-end;
+}
+
+.mentholcigarettes-img:hover {
+    transform: translateX(2px);
+    
+
+}
+
+.mentholcigarettes-h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    margin-left: 200px;
+    margin-top: 30px;
+    color: black;
+}
+
+.Liposuction-Container {
+    margin-left: px;
+    margin-top: 30px;
+    height: 125px;
+    width: 570px;
+    border-radius: 10px;
+    /* border: 0.1px dashed rgba(46, 46, 46, 0.226); */
+    display: flex;
+}
+.Liposuction-Container:hover{
+    border: none;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.Liposuction-img {
+    width: 165px;
+    height: 125px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 0.9px;
+    box-shadow: 0px 0px 1px 0.9px;
+    transition: 0.7 step-end;
+}
+
+.Liposuction-img:hover {
+    transform: translateX(2px);
+
+}
+
+.Liposuction-h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: x-large;
+  margin-left: 200px;
+  margin-top: -100px;
+  color: black;
+    text-decoration: none;
+
+}
+
+.Sstrategy-Container {
+    margin-left: px;
+    margin-top: 30px;
+    height: 125px;
+    width: 570px;
+    border-radius: 10px;
+    /* border: 0.1px dashed rgba(0, 0, 0, 0.226); */
+    display: flex;
+}
+.Sstrategy-Container:hover{
+    border: none;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+.Sstrategy-img {
+    width: 165px;
+    height: 125px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 0.9px;
+    transition: 0.7 step-end;
+}
+
+.Sstrategy-img:hover {
+    transform: translateX(2px);
+}
+
+.Sstrategy-h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: x-large;
+  margin-left: 200px;
+  margin-top: -100px;
+  color: black;
+    text-decoration: none;
+}
+
+.commercialmilk-Container {
+    margin-left: px;
+    margin-top: 30px;
+    width: 570px;
+    height: 125px;
+    border-radius: 10px;
+    /* border: 0.1px dashed rgba(46, 46, 46, 0.226); */
+    display: flex;
+}
+.commercialmilk-Container:hover{
+    border: none;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+.commercialmilk-img {
+    width: 165px;
+    height: 125px;
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 0.9px;
+    transition: 0.7 step-end;
+}
+
+.commercialmilk-img:hover {
+    transform: translateX(2px);
+    
+
+}
+
+.commercialmilk-h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: x-large;
+  margin-left: 200px;
+  margin-top: -100px;
+  color: black;
+    text-decoration: none;
+}
+
+.lifesavingdrugs-Container {
+    margin-top: 30px;
+    height: 125px;
+    width: 570px;
+    border-radius: 10px;
+    /* border: 0.1px dashed rgba(0, 0, 0, 0.226); */
+    display: flex;
+}
+.lifesavingdrugs-Container:hover{
+    border: none;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.lifesavingdrugs-img {
+    width: 165px;
+    height: 125px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 0.9px;
+    transition: 0.7 step-end;
+}
+
+.lifesavingdrugs-img:hover {
+    transform: translateX(2px);
+}
+
+.lifesavingdrugs-h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: x-large;
+  margin-left: 200px;
+  margin-top: -100px;
+  color: black;
+    text-decoration: none;
+}
+
+.Birdflu-container {
+    position: relative;
+    margin-top: 30px;
+    width: 570px;
+    height: 125px;
+    border-radius: 10px;
+    /* border: 0.1px dashed rgba(46, 46, 46, 0.226); */
+    display: flex;
+    margin-left: 44%;
+    margin-top: -737px;
+}
+.Birdflu-container:hover{
+    border: none;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+.Birdflu-img {
+    width: 165px;
+    height: 125px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 0.9px;
+    transition: 0.7 step-end;
+
+}
+
+.Birdflu-img:hover {
+    transform: translateX(2px);
+}
+
+.Birdflu-h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: x-large;
+  margin-left: 200px;
+  margin-top: -100px;
+  color: black;
+    text-decoration: none;
+}
+
+.dairycows-container {
+    margin-left: px;
+    margin-top: 30px;
+    height: 125px;
+    width: 570px;
+    border-radius: 10px;
+    /* border: 0.1px dashed rgba(46, 46, 46, 0.226); */
+    display: flex;
+    margin-left: 44%;
+    margin-top: 31px;
+}
+.dairycows-container:hover{
+    border: none;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+.dairycows-img {
+    width: 165px;
+    height: 125px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 0.9px;
+    transition: 0.7 step-end;
+}
+
+.dairycows-img:hover {
+    transform: translateX(2px);
+}
+
+.dairycows-h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: x-large;
+  margin-left: 200px;
+  margin-top: -100px;
+  color: black;
+    text-decoration: none;
+
+}
+
+.covid19vaccine-container {
+
+    margin-left: px;
+    margin-top: 30px;
+    width: 570px;
+    border-radius: 10px;
+    height: 125px;
+    /* border: 0.1px dashed rgba(46, 46, 46, 0.226); */
+    display: flex;
+    margin-left: 44%;
+    margin-top: 31px;
+}
+.covid19vaccine-container:hover{
+    border: none;
+    box-shadow: 5px 5px 10px rgb(3, 3, 3);
+}
+.covid19vaccine-img {
+    width: 165px;
+    height: 125px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 0.9px;
+    transition: 0.7 step-end;
+
+}
+
+.covid19vaccine-img:hover {
+    transform: translateX(2px);
+}
+
+.covid19vaccine-h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: x-large;
+  margin-left: 200px;
+  margin-top: -100px;
+  color: black;
+    text-decoration: none;
+
+}
+
+.cancerdrugsales-container {
+    margin-left: px;
+    margin-top: 30px;
+    width: 570px;
+    height: 125px;
+    border-radius: 10px;
+    /* border: 0.1px dashed rgba(46, 46, 46, 0.226); */
+    display: flex;
+    margin-left: 44%;
+    margin-top: 31px;
+}
+.cancerdrugsales-container:hover{
+    border: none;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.cancerdrugsales-img {
+    width: 165px;
+    height: 125px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 0.9px;
+    transition: 0.7 step-end;
+}
+
+.cancerdrugsales-img:hover {
+    transform: translateX(2px);
+}
+
+.cancerdrugsales-h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: x-large;
+  margin-left: 200px;
+  margin-top: -100px;
+  color: black;
+    text-decoration: none;
+}
+
+.Measlesvaccination-container {
+    margin-top: 30px;
+    width: 570px;
+    height: 125px;
+    border-radius: 10px;
+    /* border: 0.1px dashed rgba(0, 0, 0, 0.226); */
+    display: flex;
+    margin-left: 44%;
+    margin-top: 31px;
+}
+.Measlesvaccination-container:hover{
+    border: none;
+    box-shadow: 5px 5px 10px rgb(114, 114, 116);
+}
+.Measlesvaccination-img {
+    width: 165px;
+    height: 125px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px 0.9px;
+    transition: 0.7 step-end;
+}
+
+.Measlesvaccination-img:hover {
+    transform: translateX(2px);
+}
+
+.Measlesvaccination-h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: x-large;
+  margin-left: 200px;
+  margin-top: -100px;
+  color: black;
+    text-decoration: none;
+    
+}
+
+/* mehtholcigarettes page heading-container */
+
+.container {
+    background-color: antiquewhite;
+    height: 150px;
+    width: 2000px;
+    display: inline-block;
+    margin-top: -250px;
+    margin-left:10px;
+}
+
+.headingcontainer-h1 {
+    position: relative;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 55px;
+    font-weight: bolder;
+    margin-left: 340px;
+    margin-top: 430px;
+}
+
+.heading-para {
+    width: 300px;
+    margin-left: 340px;
+   color: rgb(48, 48, 48);
+    margin-top: -30px;
+    border-style: inset;
+}
+
+.icons {
+    font-size: xx-large;
+    margin-left: 1300px;
+    position: relative;
+}
+
+.horizontal-line {
+    width: 1160px;
+    margin-right: 425px;
+    margin-left: 340px;
+}
+
+.divider {
+    width: 1200px;
+    margin-left: 335px;
+    height: 1px;
+    background-color: rgb(1, 2, 1);
+    display: inline-block;
+    margin-bottom: 540px;
+}
+
+.mentholpage-img {
+    display: block;
+    margin-top: 0px;
+    position: absolute;
+    margin-left: 340px;
+    height: 470px;
+    box-shadow: 0px 0 0 1px gray;
+
+    width: 1050px;
+}
+
+/* menthol page top news heading */
+/* .topnews-heading{
+    background-color: aqua;
+    width: 250px;
+    display: block;
+} */
+.topnews-heading h2 {
+    margin-top: 520px;
+    
+    padding-left: 5px 5px;
+    font-size: x-large;
+    width: 190px;
+}
+
+.topnews-heading h3 {
+    width: 230px;
+    margin-left: 20px;
+}
+
+/* .con{ */
+    /* margin-top: 530px;
+    width: 250px;
+    margin-left: 340px;
+    height: 430px;
+    border: 1px solid black; */
+/* } */
+
+.con h2 {
+    margin-left: 3px;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.con h3 {
+    font-size: large;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+
+.con p {
+    font-size: small;
+    color: grey;
+    width: 250px;
+    margin-left: 20px;
+    transition: (0.5);
+    cursor: pointer;
+}
+
+
+
+.logo-con {
+    position: relative;
+    /* border: 1px solid black; */
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 355px;
+    justify-content: center;
+
+}
+
+/* .logo {
+    font-size: small;
+    width: 200px;
+    margin-left: 350px; 
+    cursor: pointer;
+} */
+
+/* .logo-con h4 {
+    margin-left: 68px;
+    cursor: pointer;
+}
+
+.logo-con p {
+    margin-left: 8px;
+    justify-content: center;
+    align-items: center;
+} */
+
+.topnewsoutpara-container {
+    
+    margin-left: 340px;
+    position: relative;
+    margin-top: 500px;
+    color: rgb(255, 254, 254);
+    width: 1060px;
+
+}
+
+.topnewsoutpara-container h3 {
+   position: relative;
+   margin-left: 1px;
+   font-size: x-large;
+}
+
+.topnewsoutpara-container p {
+    font-size: 20px;
+    color: rgb(69, 69, 69);
+    width: 1000px;
+    height: 80px;
+    position: relative;
+    margin-left: -0px;
+
+}
+
+/* polling com */
+.wrapper {
+    padding: 30px;
+    background-color: #fff;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, alpha);
+}
+
+.wrapper header {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.wrapper .poll-area {
+    margin: 20px 0 15px 0;
+}
+
+.poll-area label {
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px 15px;
+    border: 2px solid #e6e6e6;
+}
+
+/* Liposuction page style */
+
+.lipo-container {
+    background-color: antiquewhite;
+    height: 150px;
+    width: 1450px;
+    display: inline-block;
+    margin-top: -250px;
+    margin-left: -25px;
+}
+.lipo-container h4{
+    font-size: large;
+}
+
+.lipo-horizontal-line {
+    margin-left: 320px;
+    position: relative;
+    width: 1175px;
+}
+
+.lipo-img {
+    display: block;
+    margin-top: 0px;
+    position:relative;
+    margin-left: 340px;
+    height: 470px;
+    box-shadow: 0px 0 0 1px gray;
+    margin-left: 318px;
+    width: 1050px;
+    animation: bubble 7s linear infinite;
+}
+.lipo-topnewsoutpara-container{
+    margin-left: 319px;
+    font-size: x-large;
+    height: 60px;
+    position: relative;
+    margin-top: 60px;
+    width: 1050px;
+    font-size: 20px;
+    color: rgb(69, 69, 69);
+    
+}
+.lipo-topnewsoutpara-container h3{
+    color: black;
+}
+/* advertisement from bootstrap */
+  .carousel-slide{
+    position: absolute;
+    margin-top:-380px;
+    width: 1550px;
+    height: 10px;
+    color: gray;
+    margin-left: 480px;
+}  
+/* livesavingpage style */
+.live-container{
+      background-color: antiquewhite;
+    height: 150px;
+    width: 1450px;
+    display: inline-block;
+    margin-top: -250px;
+    margin-left: 1px;
+}
+.liveheading-para{
+    width: 800px;
+    margin-left: 343px;
+   color: rgb(48, 48, 48);
+    margin-top: -30px;
+    border-style: inset;
+}
+.carousel-slide img{
+    border-radius: 10px;
+    height: 220px;
+    margin-top:50px;
+}
+.anchor4{
+    text-decoration: none;
+}
+.anchor{
+    text-decoration: none;
+    color: white;
+  }
+  .anchor:hover{
+    color: white;
+  }
+  .facebook {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .instagram,
+.twitter,
+.youtube {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 25.5%;
+  cursor: pointer;
+  transform: 0.5 ease;
+}
+
+.instagram:hover {
+  transform: scale(1.1);
+  transition-delay: 1ms;
+}
+
+.youtube:hover {
+  transform: scale(1.1);
+  transition-delay: 1ms;
+}
+
+.twitter:hover {
+  transform: scale(1.1);
+  transition-delay: 1ms;
+}
+
+.facebook:hover {
+  transform: scale(1.1);
+  transition-delay: 1ms;
+}
+  

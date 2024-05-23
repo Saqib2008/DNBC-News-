@@ -1,0 +1,465 @@
+.header {
+  background-color: rgb(223, 68, 22);
+  color: white;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  z-index: +999;
+}
+.nav {
+  background-color: rgb(17, 17, 77);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+  font-size: 25px;
+  width: 100%;
+  font-weight: bold;
+  position: fixed;
+  z-index: +999;
+  top: 30px;
+}
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.logo {
+  margin-right: 60px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(17, 17, 77);
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  color: black
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.home,
+.pakistan,
+.health,
+.business1,
+.sports,
+.aboutus,
+.contactus,
+.cities,
+.top10news {
+  cursor: pointer;
+}
+
+.home:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(82, 36, 250);
+  text-underline-offset: 15px;
+  text-decoration-thickness: 3px;
+
+}
+
+.pakistan:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(82, 36, 250);
+  text-underline-offset: 15px;
+  text-decoration-thickness: 3px;
+}
+
+.health:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(82, 36, 250);
+  text-underline-offset: 15px;
+  text-decoration-thickness: 3px;
+}
+
+.business1:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(82, 36, 250);
+  text-underline-offset: 15px;
+  text-decoration-thickness: 3px;
+}
+
+.sports:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(82, 36, 250);
+  text-underline-offset: 15px;
+  text-decoration-thickness: 3px;
+}
+
+.top10news:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(82, 36, 250);
+  text-underline-offset: 15px;
+  text-decoration-thickness: 3px;
+}
+
+.aboutus:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(82, 36, 250);
+  text-underline-offset: 15px;
+  text-decoration-thickness: 3px;
+}
+
+.contactus:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(82, 36, 250);
+  text-underline-offset: 15px;
+  text-decoration-thickness: 3px;
+}
+
+.cities:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(82, 36, 250);
+  text-underline-offset: 15px;
+  text-decoration-thickness: 3px;
+}
+
+.latestnews1,
+.trendingnow,
+.International1,
+.pakistan1,
+.business,
+.health1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.latestnews1,
+.trendingnow {
+  width: fit-content;
+  margin-left: 40%;
+}
+
+.trendingnow {
+  padding-top: 25px;
+
+}
+
+.International1,
+.pakistan1,
+.business,
+.health1 {
+  display: inline-block;
+}
+
+.latestnews1:hover {
+  text-decoration: underline;
+  text-underline-offset: 15px;
+}
+
+.trendingnow:hover {
+  text-decoration: underline;
+  text-underline-offset: 15px;
+}
+
+.International1:hover {
+  text-decoration: underline;
+  text-underline-offset: 15px;
+}
+
+.pakistan1:hover {
+  text-decoration: underline;
+  text-underline-offset: 15px;
+}
+
+.business:hover {
+  text-decoration: underline;
+  text-underline-offset: 15px;
+}
+
+.health1:hover {
+  text-decoration: underline;
+  text-underline-offset: 15px;
+}
+
+.trendingnow {
+  margin-top: 130px;
+}
+
+.main-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 60px;
+}
+
+.discription {
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: large;
+  width: 370px;
+}
+
+.discription:hover {
+  color: rgb(122, 116, 116);
+}
+
+.img {
+  border-radius: 10px;
+  transform: 0.5 ease;
+}
+
+.img:hover {
+  transform: scale(1.1);
+  transition-delay: 1ms;
+  box-shadow: 3px 3px 3px 3px gray;
+}
+
+.main-2 {
+  display: flex;
+}
+
+.container {
+  cursor: pointer;
+}
+
+.main-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: rgb(5, 5, 54);
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.discription1 {
+  width: 275px;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: medium;
+}
+
+.discription1:hover {
+  color: rgb(122, 116, 116);
+
+}
+
+.main-4 {
+  display: inline-block;
+  margin-left: 60px;
+}
+
+.img1 {
+  margin-top: 15px;
+  border-radius: 10px;
+  transform: 0.5 ease;
+}
+
+.img1:hover {
+  transform: scale(1.1);
+  transition-delay: 1ms;
+}
+
+.footer {
+  margin-top: 50px;
+  height: 550px;
+  background-color: rgb(17, 17, 77);
+}
+
+.facebook {
+  width: 30px;
+  height: 30px;
+  margin-left: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.socialmediaaccounts {
+  display: flex;
+}
+
+.instagram,
+.twitter,
+.youtube {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 23%;
+  cursor: pointer;
+  transform: 0.5 ease;
+}
+
+.instagram:hover {
+  transform: scale(1.1);
+  transition-delay: 1ms;
+}
+
+.youtube:hover {
+  transform: scale(1.1);
+  transition-delay: 1ms;
+}
+
+.twitter:hover {
+  transform: scale(1.1);
+  transition-delay: 1ms;
+}
+
+.facebook:hover {
+  transform: scale(1.1);
+  transition-delay: 1ms;
+}
+
+.aboutus1,
+.info,
+.corporate,
+.getintouch {
+  color: white;
+  margin-top: 40px;
+  margin-left: 20px;
+  width: fit-content;
+  cursor: pointer;
+}
+.getintouch:hover{
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.info {
+  line-height: 30px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.main-5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.contact-us,
+.about-us,
+.feedback,
+.termsconditions {
+  color: white;
+  margin-left: 100px;
+  line-height: 15px;
+  margin-top: 20px;
+  font-size: medium;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.corporate {
+  margin-left: 100px;
+}
+
+.corporate:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.aboutus1:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+.contact-us:hover {
+  color: rgb(122, 116, 116);
+}
+
+.feedback:hover {
+  color: rgb(122, 116, 116);
+}
+
+.termsconditions:hover {
+  color: rgb(122, 116, 116);
+}
+
+.about-us:hover {
+  color: rgb(122, 116, 116);
+}
+
+.end {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.followus {
+  color: white;
+  margin-left: 43%;
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+.followus:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  width: fit-content;
+}
+
+.channelname {
+  color: white;
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+.channelname:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  width: fit-content;
+}
+.phone{
+  margin-left:20px;
+  margin-top: 10px;
+}
+.number{
+  color:white;
+  display: inline-block;
+  margin-left:20px;
+}
+.location{
+  margin-left:12px;
+  margin-top:13px;
+}
+.address, .mail{
+  color:white;
+  margin-right:40px;
+  width: fit-content;
+  margin-top:15px;
+  display: inline-block;
+  margin-left:20px;
+}
+.email{
+  margin-left:10px;
+  margin-top:12px;
+  
+}
+.anchor{
+  text-decoration: none;
+  color: white;
+}
+.anchor1{
+color:black;
+text-decoration: none;
+}
+.anchor2{
+  color:white;
+  text-decoration: none; 
+}
+
+
+
